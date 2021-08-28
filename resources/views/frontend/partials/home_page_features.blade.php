@@ -7,14 +7,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body" style="text-align: center">
-                    <h5> {{ translate('Shop by Store') }}</h5><br>
-                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 380px;">
+                    <h5> {{ translate('Art Craft') }}</h5><br>
+                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 280px;">
                             <img src="{{ url('imgs/Art _ Craft.jpg') }}" alt="Sample Image">
                             <figcaption class="c4-layout-top-left">
                                 <div class="c4-reveal-down">
                                     <div>
                                         <h2 style="margin-bottom: 5px;">
-                                            {{ translate('Shop by Store') }}
+                                            {{ translate('Art Craft') }}
                                         </h2>
                                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                     </div>
@@ -27,17 +27,16 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body" style="text-align: center">
-                        <h5>{{ translate('Shop by Category') }}</h5><br>
-                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 380px;">
+                        <h5>{{ translate('Bathik') }}</h5><br>
+                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 280px;">
                             <img src="{{ url('imgs/Bathik.jpg') }}" alt="Sample Image">
                             <figcaption class="c4-layout-top-left">
                                 <div class="c4-reveal-down">
                                     <div>
                                         <h2 style="margin-bottom: 5px;">
-                                            {{ translate('Shop by Category') }}
+                                            {{ translate('Bathik') }}
                                         </h2>
                                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                        <a href="" class="btn btn-primary">Hello Word</a>
                                     </div>
                                 </div>
                             </figcaption>
@@ -48,14 +47,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body" style="text-align: center">
-                        <h5> {{ translate('Ask the Book Finder') }}</h5><br>
-                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 380px;">
+                        <h5> {{ translate('Cane Furniture') }}</h5><br>
+                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 280px;">
                             <img src="{{ url('imgs/Cane Furniture .jpg') }}" alt="Sample Image">
                             <figcaption class="c4-layout-top-left">
                                 <div class="c4-reveal-down">
                                     <div>
                                         <h2 style="margin-bottom: 5px;">
-                                            {{ translate('Ask the Book Finder') }}
+                                            {{ translate('Cane Furniture') }}
                                         </h2>
                                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                     </div>
@@ -69,34 +68,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body" style="text-align: center">
-                        <h5>{{ translate('Visit the Book Fair') }}</h5><br>
-                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 380px;">
+                        <h5>{{ translate('Garden Center') }}</h5><br>
+                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 280px;">
                             <img src="{{ url('imgs/Garden Center.jpg') }}" alt="Sample Image">
                             <figcaption class="c4-layout-top-left">
                                 <div class="c4-reveal-down">
                                     <div>
                                         <h2 style="margin-bottom: 5px;">
-                                            {{ translate('Visit the Book Fair') }}
-                                        </h2>
-                                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure><br>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body" style="text-align: center">
-                        <h5>{{ translate('Stationary Corner') }}</h5><br>
-                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 380px;">
-                            <img src="{{ url('imgs/gift card.jpg') }}" alt="Sample Image">
-                            <figcaption class="c4-layout-top-left">
-                                <div class="c4-reveal-down">
-                                    <div>
-                                        <h2 style="margin-bottom: 5px;">
-                                            {{ translate('Stationary Corner') }}
+                                            {{ translate('Garden Center') }}
                                         </h2>
                                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                     </div>
@@ -110,13 +89,33 @@
                 <div class="card">
                     <div class="card-body" style="text-align: center">
                         <h5>{{ translate('Gift Cards') }}</h5><br>
-                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 380px;">
-                            <img src="{{ url('imgs/health and wellness.jpg') }}" alt="Sample Image">
+                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 280px;">
+                            <img src="{{ url('imgs/gift card.jpg') }}" alt="Sample Image">
                             <figcaption class="c4-layout-top-left">
                                 <div class="c4-reveal-down">
                                     <div>
                                         <h2 style="margin-bottom: 5px;">
                                             {{ translate('Gift Cards') }}
+                                        </h2>
+                                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body" style="text-align: center">
+                        <h5>{{ translate('Health and Wellness') }}</h5><br>
+                        <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0" style="--primary-color: #000000;--secondary-color: #000000;--text-color: #f0f0f0;--border-color: #ffffff;--image-opacity: 60%;width: 280px;">
+                            <img src="{{ url('imgs/health and wellness.jpg') }}" alt="Sample Image">
+                            <figcaption class="c4-layout-top-left">
+                                <div class="c4-reveal-down">
+                                    <div>
+                                        <h2 style="margin-bottom: 5px;">
+                                            {{ translate('Health and Wellness') }}
                                         </h2>
                                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                     </div>
