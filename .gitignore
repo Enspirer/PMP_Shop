@@ -1,6 +1,7 @@
 /bootstrap/compiled.php
 .env.*.php
 .env.php
+.htaccess
 /node_modules
 /public/hot
 /public/storage
