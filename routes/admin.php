@@ -19,6 +19,13 @@ Route::get('/admin', 'HomeController@admin_dashboard')->name('admin.dashboard')-
 Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function() {
     //Update Routes
 
+
+    Route::get('/tallentor', 'TallentorController@index')->name('admin.tallentor');
+
+
+
+
+
     Route::resource('categories', 'CategoryController');
     Route::get('/categories/edit/{id}', 'CategoryController@edit')->name('categories.edit');
     Route::get('/categories/destroy/{id}', 'CategoryController@destroy')->name('categories.destroy');

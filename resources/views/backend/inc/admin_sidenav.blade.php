@@ -23,6 +23,13 @@
                     </a>
                 </li>
 
+                <li class="aiz-side-nav-item">
+                    <a href="{{route('admin.tallentor')}}" class="aiz-side-nav-link">
+                        <i class="las la-file aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">{{translate('Tallentor Page')}}</span>
+                    </a>
+                </li>
+
                 <!-- POS Addon-->
                 @if (\App\Addon::where('unique_identifier', 'pos_system')->first() != null && \App\Addon::where('unique_identifier', 'pos_system')->first()->activated)
                     @if(Auth::user()->user_type == 'admin' || in_array('1', json_decode(Auth::user()->staff->role->permissions)))
